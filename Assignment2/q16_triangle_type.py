@@ -22,7 +22,7 @@ def type_triangle():
             print("The triangle is scalene!")
         
         s = [s1, s2, s3]
-        ss = sort_side([s1, s2, s3])
+        ss = sort_side(s)
         if ss[0]**2 + ss[1]**2 == ss[2]**2:
             print("The triangle is a right-angled triangle.")
     else:
